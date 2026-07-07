@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoodSync - Explorar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="menu">
+        <a href="#" class="logo">
+            <span class="logo-marca">M</span>
+            <span>MOODSYNC</span>
+        </a>
+
+        <nav class="enlaces">
+            <a href="../index.html">Home</a>
+            <a href="#" class="activo">Explorar</a>
+            <a href="../03_biblioteca/index.html">Biblioteca</a>
+            <a href="../04_playlists/index.html">Playlists</a>
+            <a href="../05_artistas/index.html">Artistas</a>
+            <a href="../06_podcasts/index.html">Podcasts</a>
+        </nav>
+
+        <div class="acciones">
+            <span class="icono-buscar">⌕</span>
+            <a href="#" class="boton ghost mini">Login</a>
+            <a href="#" class="boton morado mini">Empezar</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-texto">
+            <p class="cintillo">TIENDA FÍSICA · EDICIÓN LIMITADA</p>
+            <h1>Vinilos, CDs y casetes <span class="manuscrita">prensados</span> en casa.</h1>
+            <p class="parrafo">
+                Lo digital encuentra lo físico. Cada formato editado en tirada limitada,
+                numerada y con arte original.
+            </p>
+            <div class="hero-botones">
+                <a href="#" class="boton rosado">Ver catálogo →</a>
+                <a href="#" class="boton ghost">Cómo se hace</a>
+            </div>
+        </div>
+
+        <div class="hero-discos">
+            <img src="imagenes/disco-lp.jpg" alt="Vinilo LP" class="disco lp">
+            <img src="imagenes/disco-cd.jpg" alt="CD" class="disco cd">
+            <img src="imagenes/disco-k7.jpg" alt="Casete K7" class="disco k7">
+        </div>
+    </section>
+
+    <section class="filtros">
+        <span class="filtros-titulo">FORMATO:</span>
+        <a href="#" class="chip activo">Todos</a>
+        <a href="#" class="chip">Vinilo (LP)</a>
+        <a href="#" class="chip">CD</a>
+        <a href="#" class="chip">Casete</a>
+        <a href="#" class="chip">Box set</a>
+        <span class="filtros-orden">Ordenar: Más recientes ▾</span>
+    </section>
+
+    <main class="catalogo">
+
+        <div class="grid">
+
+            <article class="tarjeta">
+                <div class="portada">
+                    <span class="badge rosado">LP</span>
+                    <img src="imagenes/album-1.jpg" alt="40 y 20" class="portada-img">
+                </div>
+                <div class="tarjeta-info">
+                    <h3>40 y 20</h3>
+                    <p class="artista">José José</p>
+                    <div class="precio-fila">
+                        <span class="precio">S/ 48</span>
+                        <a href="#" class="boton oscuro mini">+ Agregar</a>
+                    </div>
+                    <p class="edicion">Edición de 50 unidades</p>
+                </div>
+            </article>
+
+            <article class="tarjeta">
+                <div class="portada">
+                    <span class="badge rosado">CD</span>
+                    <span class="badge morado derecha">NUEVO</span>
+                    <img src="imagenes/album-2.jpg" alt="Segundo Romance" class="portada-img">
+                </div>
+                <div class="tarjeta-info">
+                    <h3>Segundo Romance</h3>
+                    <p class="artista">Luis Miguel</p>
+                    <div class="precio-fila">
+                        <span class="precio">S/ 60</span>
+                        <a href="#" class="boton oscuro mini">+ Agregar</a>
+                    </div>
+                    <p class="edicion">Edición de 100 unidades</p>
+                </div>
+            </article>
+
+            <article class="tarjeta">
+                <div class="portada">
+                    <span class="badge rosado">K7</span>
+                    <img src="imagenes/album-3.jpg" alt="Rosa Rosa" class="portada-img">
+                </div>
+                <div class="tarjeta-info">
+                    <h3>Rosa Rosa</h3>
+                    <p class="artista">Django</p>
+                    <div class="precio-fila">
+                        <span class="precio">S/ 72</span>
+                        <a href="#" class="boton oscuro mini">+ Agregar</a>
+                    </div>
+                    <p class="edicion">Edición de 150 unidades</p>
+                </div>
+            </article>
+
+            <article class="tarjeta">
+                <div class="portada">
+                    <span class="badge rosado">BOX</span>
+                    <img src="imagenes/album-4.jpg" alt="Historia de un Príncipe" class="portada-img">
+                </div>
+                <div class="tarjeta-info">
+                    <h3>Historia de un Príncipe (Box Set)</h3>
+                    <p class="artista">José José</p>
+                    <div class="precio-fila">
+                        <span class="precio">S/ 84</span>
+                        <a href="#" class="boton oscuro mini">+ Agregar</a>
+                    </div>
+                    <p class="edicion">Edición de 200 unidades</p>
+                </div>
+            </article>
+
+            <article class="tarjeta">
+                <div class="portada">
+                    <span class="badge rosado">LP</span>
+                    <img src="imagenes/album-5.jpg" alt="Romance" class="portada-img">
+                </div>
+                <div class="tarjeta-info">
+                    <h3>Romance</h3>
+                    <p class="artista">Luis Miguel</p>
+                    <div class="precio-fila">
+                        <span class="precio">S/ 96</span>
+                        <a href="#" class="boton oscuro mini">+ Agregar</a>
+                    </div>
+                    <p class="edicion">Edición de 250 unidades</p>
+                </div>
+            </article>
+
+            <article class="tarjeta">
+                <div class="portada">
+                    <span class="badge rosado">CD</span>
+                    <img src="imagenes/album-6.jpg" alt="Querida" class="portada-img">
+                </div>
+                <div class="tarjeta-info">
+                    <h3>Querida</h3>
+                    <p class="artista">Juan Gabriel</p>
+                    <div class="precio-fila">
+                        <span class="precio">S/ 108</span>
+                        <a href="#" class="boton oscuro mini">+ Agregar</a>
+                    </div>
+                    <p class="edicion">Edición de 300 unidades</p>
+                </div>
+            </article>
+
+            <article class="tarjeta">
+                <div class="portada">
+                    <span class="badge rosado">K7</span>
+                    <img src="imagenes/album-7.jpg" alt="Reencuentro" class="portada-img">
+                </div>
+                <div class="tarjeta-info">
+                    <h3>Reencuentro</h3>
+                    <p class="artista">José José</p>
+                    <div class="precio-fila">
+                        <span class="precio">S/ 120</span>
+                        <a href="#" class="boton oscuro mini">+ Agregar</a>
+                    </div>
+                    <p class="edicion">Edición de 350 unidades</p>
+                </div>
+            </article>
+
+            <article class="tarjeta">
+                <div class="portada">
+                    <span class="badge rosado">BOX</span>
+                    <img src="imagenes/album-8.jpg" alt="Discografía Completa" class="portada-img">
+                </div>
+                <div class="tarjeta-info">
+                    <h3>Discografía Completa (Box Set)</h3>
+                    <p class="artista">Luis Miguel</p>
+                    <div class="precio-fila">
+                        <span class="precio">S/ 132</span>
+                        <a href="#" class="boton oscuro mini">+ Agregar</a>
+                    </div>
+                    <p class="edicion">Edición de 400 unidades</p>
+                </div>
+            </article>
+
+        </div>
+
+        <div class="paginacion">
+            <a href="#" class="chip">‹</a>
+            <a href="#" class="chip activo">1</a>
+            <a href="#" class="chip">2</a>
+            <a href="#" class="chip">3</a>
+            <a href="#" class="chip">4</a>
+            <a href="#" class="chip">›</a>
+        </div>
+
+    </main>
+
+    <section class="banner-envios">
+        <div class="banner-icono">♡</div>
+        <div class="banner-texto">
+            <h4>Envíos a todo el país</h4>
+            <p>Pago contra entrega o por transferencia. Compra mínima S/ 50.</p>
+        </div>
+        <a href="#" class="boton ghost">Ver más info →</a>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-col">
+            <div class="logo">
+                <span class="logo-marca">M</span>
+                <span>MOODSYNC</span>
+            </div>
+            <p class="footer-desc">
+                Productora &amp; plataforma de descubrimiento musical.
+                El sonido que conecta con tu estado de ánimo.
+            </p>
+        </div>
+
+        <div class="footer-col">
+            <h5>PRODUCTO</h5>
+            <ul>
+                <li>Mood player</li>
+                <li>Artistas</li>
+                <li>Álbumes</li>
+                <li>Tienda</li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h5>EMPRESA</h5>
+            <ul>
+                <li>Nosotros</li>
+                <li>Estudio</li>
+                <li>Prensa</li>
+                <li>Trabaja con nosotros</li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h5>SÍGUENOS</h5>
+            <ul>
+                <li>Instagram</li>
+                <li>Spotify</li>
+                <li>YouTube</li>
+                <li>TikTok</li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
