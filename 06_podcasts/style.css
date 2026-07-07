@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #16262C;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #5E17EB; 
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.search-icon {
+    font-size: 24px;
+    color: #0097B2; 
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff; 
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 25px;
+    padding: 8px 16px;
+    transition: all 0.3s ease;
+}
+
+.nav-links a.active {
+    border: 3px solid #5E17EB;
+    color: #5E17EB;
+    border-radius: 5px;
+}
+
+.nav-right a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    gap: 15px;
+}
+
+.heart-icon {
+    font-size: 20px;
+    color: #FF66C4; 
+}
+
+.logo-text {
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #5E17EB;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+
+.card {
+    flex: 1;
+    min-width: 200px; 
+    background-color: #313030; 
+    padding: 15px;
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.image-placeholder {
+    width: 100%;
+    height: 180px;
+    background-color: #4a4a4a; 
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.color-bar {
+    width: 70%;
+    height: 6px;
+    background-color: #FF66C4;
+    border-radius: 3px;
+    margin-bottom: 12px;
+}
+
+.card h3 {
+    color: #FF66C4;
+    font-size: 16px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.card p {
+    color: #0097B2;
+    font-size: 13px;
+    line-height: 1.5;
+}
