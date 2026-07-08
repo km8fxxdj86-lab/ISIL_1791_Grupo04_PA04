@@ -47,12 +47,14 @@ body {
     border-radius: 5px;
 }
 
-.nav-right a{
+.nav-right {
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-decoration: none;
     gap: 15px;
+}
+
+.nav-right a{
+    text-decoration: none;
 }
 
 .heart-icon {
@@ -87,10 +89,11 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
 }
 
-.image-placeholder {
+
+.card-img {
     width: 100%;
     height: 180px;
-    background-color: #4a4a4a; 
+    object-fit: cover;    
     border-radius: 6px;
     margin-bottom: 15px;
 }
